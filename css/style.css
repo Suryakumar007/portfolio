@@ -347,9 +347,11 @@ footer .social a:hover i {
 @media (max-width: 700px) {
   h1 {
     font-size: 35px;
+    margin: 0;
   }
   h2 {
     font-size: 25px;
+    margin: 0;
   }
   h4 {
     font-size: 18px;
@@ -373,10 +375,23 @@ footer .social a:hover i {
     margin: 0;
     padding: 0;
   }
+
+  header .container p {
+    margin: 0;
+  }
   header .container nav {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    margin-top: 0;
   }
+
+  header .container nav ul {
+    padding: 0;
+  }
+  header .container nav ul li {
+    margin-right: 0;
+  }
+
   #about .container {
     padding-top: 5px;
     display: flex;
@@ -396,7 +411,7 @@ footer .social a:hover i {
     text-align: center;
   }
   #about .container .about-right img {
-    height: 100px;
+    height: 200px;
     margin: 0;
   }
   #experience .experience-list .experience-card {
@@ -408,5 +423,7 @@ footer .social a:hover i {
 @media (max-width: 350px) {
   header .container nav ul li a {
     font-size: 14px;
+    margin: auto;
+    padding: 0;
   }
 }
