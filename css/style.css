@@ -268,7 +268,7 @@ header .container nav ul li a:hover {
   color: var(--grey);
 }
 
-#projects .project-description{
+#projects .project-description {
   font-size: 17px;
   font-weight: 400;
 }
@@ -390,9 +390,6 @@ footer .social a:hover i {
     margin-top: 0;
   }
 
-  /* header .container nav ul {
-    padding: 0;*/
-  }
   header .container nav ul li {
     margin-right: 5px;
   }
